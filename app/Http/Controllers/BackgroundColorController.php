@@ -9,7 +9,7 @@ class BackgroundColorController extends Controller
 {
     public function select()
     {
-        $colors =BackgroundColor::all();
+        $colors = BackgroundColor::all();
         return view('background_colors.select', compact('colors'));
     }
 
